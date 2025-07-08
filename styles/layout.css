@@ -12,6 +12,16 @@
   & .main-container {
     max-width: 33rem;
     margin-left: auto;
+
+    & .information-header {
+      & .back {
+        align-items: center;
+      }
+
+      & .information h1 {
+        font: 600 1.5rem/125% var(--font-family);
+      }
+    }
   }
 }
 
@@ -21,5 +31,17 @@
 
   & .aside-container {
     max-width: 31rem;
+
+    & header {
+      margin-bottom: 2rem;
+
+      & h2 {
+        font: 600 2.5rem/125% var(--font-family);
+
+        & span {
+          color: var(--text-highlight);
+        }
+      }
+    }
   }
 }
