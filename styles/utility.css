@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-8 {
+  gap: 0.5rem;
+}
+
+.gap-24 {
+  gap: 1.5rem;
+}
