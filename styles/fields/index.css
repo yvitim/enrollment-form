@@ -1,3 +1,5 @@
+@import url(./drop-area.css);
+
 input, textarea, select {
   appearance: none;
   width: 100%;
@@ -15,7 +17,8 @@ label {
   margin-bottom: 0.25rem;
 }
 
-input:focus,
+input:focus, 
+input[type="date"]:focus-within,
 textarea:focus,
 select:focus {
   outline: 0.25rem solid var(--surface-secondary);
